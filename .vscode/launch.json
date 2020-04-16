@@ -1,0 +1,91 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BeamAdminApplication<beam-admin>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.BeamAdminApplication",
+            "projectName": "beam-admin"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ImgQrTool<beam-common>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.common.qr.ImgQrTool",
+            "projectName": "beam-common"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ParseQrTool<beam-common>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.common.qr.ParseQrTool",
+            "projectName": "beam-common"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HanyuPinyinHelper<beam-common>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.common.utils.HanyuPinyinHelper",
+            "projectName": "beam-common"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MD5Util<beam-common>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.common.utils.MD5Util",
+            "projectName": "beam-common"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MP3ToWav<beam-common>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.common.utils.MP3ToWav",
+            "projectName": "beam-common"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ObjectUtils<beam-common>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.common.utils.ObjectUtils",
+            "projectName": "beam-common"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RegexUtil<beam-common>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.common.utils.RegexUtil",
+            "projectName": "beam-common"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ShortCodeKit<beam-common>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.common.utils.ShortCodeKit",
+            "projectName": "beam-common"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BeamRestApplication<beam-rest>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.BeamRestApplication",
+            "projectName": "beam-rest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SignTest<beam-rest>",
+            "request": "launch",
+            "mainClass": "com.hsshy.beam.sign.util.SignTest",
+            "projectName": "beam-rest"
+        }
+    ]
+}

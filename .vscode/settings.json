@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.configuration.maven.userSettings": "E:\\Program Files (x86)\\apache-maven-3.2.3\\conf\\settings.xml",
+    "maven.executable.path": "E:\\Program Files (x86)\\apache-maven-3.2.3\\bin\\mvn.cmd",
+    "maven.terminal.useJavaHome": true,
+    "java.home":"E:\\Program Files\\Java\\jdk1.8.0_22",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "E:\\Program Files\\Java\\jdk1.8.0_22"
+        }
+    ]
+}
